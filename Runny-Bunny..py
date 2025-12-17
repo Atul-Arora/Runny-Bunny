@@ -232,11 +232,9 @@ while True:
         move_background()
         score = display_score()
 
-        speed_text = test_font.render(f"Speed: {round(speed,2)}", False, (255,0,0))
-        screen.blit(speed_text, (600, 50))
+
 		
-        fps_text = test_font.render(f"FPS: {int(clock.get_fps())}",False,(0, 255, 0))
-        screen.blit(fps_text, (10, 10))
+
 		
 		
         milestone = score // Milestone
